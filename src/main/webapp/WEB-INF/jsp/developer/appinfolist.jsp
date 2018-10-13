@@ -167,7 +167,7 @@
                             <td>${appInfoList.softwareSize}</td>
                             <td>${appInfoList.flatformName}</td>
                             <td>${appInfoList.categoryLevel1Name}-\-${appInfoList.categoryLevel2Name}-\-${appInfoList.categoryLevel3Name}</td>
-                            <td>${appInfoList.statusName}</td>
+                            <td><span id="appInfoStatus${appInfoList.id}">${appInfoList.statusName }</span></td>
                             <td>${appInfoList.downloads}</td>
                             <td>${appInfoList.versionNo}</td>
                             <td>

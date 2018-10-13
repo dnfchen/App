@@ -155,9 +155,9 @@ var saleSwitchAjax = function(appId,obj){
         },
         error:function(data){
             if("open" === obj.attr("saleSwitch")){
-                alert("恭喜您，【"+obj.attr("appsoftwarename")+"】的【上架】操作成功");
+                alert("【"+obj.attr("appsoftwarename")+"】的【上架】操作失败");
             }else if("close" === obj.attr("saleSwitch")){
-                alert("恭喜您，【"+obj.attr("appsoftwarename")+"】的【下架】操作成功");
+                alert("【"+obj.attr("appsoftwarename")+"】的【下架】操作失败");
             }
         }
     });

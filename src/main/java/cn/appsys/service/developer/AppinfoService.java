@@ -60,4 +60,7 @@ public interface AppinfoService {
      */
     public int updateSatus(@Param(value = "status") Integer status, @Param(value = "id") Integer id)throws Exception;
 
+
+    public boolean appsysUpdateSaleStatusByAppId(AppInfo appInfo) throws Exception;
+
 }
