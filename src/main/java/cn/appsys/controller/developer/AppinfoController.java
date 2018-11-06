@@ -550,7 +550,6 @@ public class AppinfoController {
                 appInfo.setId(appIdInteger);
                 appInfo.setModifyBy(devUser.getId());
                 if(appinfoService.appsysUpdateSaleStatusByAppId(appInfo)){
-                    System.out.println("*&^*&^%");
                     resultMap.put("resultMsg", "success");
                 }else{
                     resultMap.put("resultMsg", "success");
